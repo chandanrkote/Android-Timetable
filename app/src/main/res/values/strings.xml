@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">TimeTable Demo</string>
+
+    <string-array name="Main">
+        <item> Timetable </item>
+        <item> Subjects </item>
+        <item> Faculty </item>
+        <item> Resources </item>
+        <item> Calender of events </item>
+    </string-array>
+
+    <string-array name="Description">
+        <item> Description 1 </item>
+        <item> Description 2 </item>
+        <item> Description 3 </item>
+        <item> Description 4 </item>
+        <item> Description 5 </item>
+    </string-array>
+
+    <string-array name="Week">
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+    </string-array>
+
+    <string-array name="Monday">
+        <item>subject1 </item>
+        <item>subject2</item>
+        <item>subject3</item>
+        <item>subject4</item>
+        <item>subject5</item>
+        <item>subject6</item>
+        <item>subject7</item>
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item>subject1 </item>
+        <item>subject2</item>
+        <item>subject3</item>
+        <item>subject4</item>
+        <item>subject5</item>
+        <item>subject6</item>
+        <item>subject7</item>
+
+    </string-array>
+
+    <string-array name="Wednesday">
+        <item>subject1 </item>
+        <item>subject2</item>
+        <item>subject3</item>
+        <item>subject4</item>
+        <item>subject5</item>
+        <item>subject6</item>
+        <item>subject7</item>
+    </string-array>
+
+    <string-array name="Thursday">
+        <item>subject1 </item>
+        <item>subject2</item>
+        <item>subject3</item>
+        <item>subject4</item>
+        <item>subject5</item>
+        <item>subject6</item>
+        <item>subject7</item>
+    </string-array>
+
+    <string-array name="Friday">
+        <item>subject1 </item>
+        <item>subject2</item>
+        <item>subject3</item>
+        <item>subject4</item>
+        <item>subject5</item>
+        <item>subject6</item>
+        <item>subject7</item>
+    </string-array>
+
+    <string-array name="Saturday">
+        <item>subject1 </item>
+        <item>subject2</item>
+        <item>subject3</item>
+        <item>subject4</item>
+        <item>subject5</item>
+        <item>subject6</item>
+        <item>subject7</item>
+    </string-array>
+
+    <string-array name="time1">
+        <item> time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+    </string-array>
+
+    <string-array name="time2">
+        <item> time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+    </string-array>
+
+    <string-array name="time3">
+        <item> time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+    </string-array>
+
+    <string-array name="time4">
+        <item> time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+    </string-array>
+
+    <string-array name="time5">
+        <item> time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+    </string-array>
+
+    <string-array name="time6">
+        <item> time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+        <item>time need to be set up</item>
+    </string-array>
+
+    <string-array name="Subject">
+        <item>subject 1 </item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4 </item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+    </string-array>
+</resources>
