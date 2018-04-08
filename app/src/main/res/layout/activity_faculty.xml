@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.example.chandanrkote.chandanpro.MainActivity">
+    android:background="@color/Teal1"
+    tools:context="com.example.chandanrkote.chandanpro.FacultyActivity">
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
-        android:background="@color/colorPrimary"
+        android:background="@color/Teal3"
         app:titleTextColor="@color/white"
-        android:id="@+id/ToolbarSub">
+        android:id="@+id/ToolbarFaculty"
+        >
 
     </android.support.v7.widget.Toolbar>
 
@@ -19,12 +21,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
-        android:id="@+id/lvSub"
+        android:id="@+id/lvFaculty"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
+        android:background="@color/Teal1"
         android:dividerHeight="10dp"
-        android:layout_below="@+id/ToolbarSub"
+        android:layout_below="@+id/ToolbarFaculty"
         android:divider="@null">
     </ListView>
 

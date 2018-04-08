@@ -5,15 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/Teal1"
-    tools:context="com.example.chandanrkote.chandanpro.WeekActivity">
+    tools:context="com.example.chandanrkote.chandanpro.SubjectActivity">
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/Teal3"
         app:titleTextColor="@color/white"
-        android:elevation="4dp"
-        android:id="@+id/ToolbarWeek">
+        android:id="@+id/ToolbarSubject">
 
     </android.support.v7.widget.Toolbar>
 
@@ -21,12 +20,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
-        android:id="@+id/lvWeek"
+        android:id="@+id/lvSubject"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:dividerHeight="10dp"
-        android:layout_below="@+id/ToolbarWeek"
+        android:layout_below="@+id/ToolbarSubject"
         android:divider="@null">
     </ListView>
 

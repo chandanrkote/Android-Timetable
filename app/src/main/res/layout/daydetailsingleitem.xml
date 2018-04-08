@@ -9,8 +9,8 @@
         android:layout_height="wrap_content">
 
         <com.example.chandanrkote.chandanpro.LetterImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/ivDayDetails"
             android:layout_margin="8dp"/>
 
@@ -20,7 +20,9 @@
             android:id="@+id/tvSubjectDayDetails"
             android:text="Subjects"
             android:textStyle="bold"
-            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="14dp"
             android:layout_toRightOf="@+id/ivDayDetails"
             android:layout_alignTop="@+id/ivDayDetails"
             android:layout_alignParentRight="true"
@@ -35,7 +37,10 @@
             android:layout_alignParentRight="true"
             android:layout_marginEnd="13dp"
             android:layout_marginRight="13dp"
-            android:text="Time" />
+            android:text="Time"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvSubjectDayDetails"
+            android:textColor="@color/black"/>
 
     </RelativeLayout>
 

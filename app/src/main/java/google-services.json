@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1059826282501",
+    "firebase_url": "https://notifications-1f0ac.firebaseio.com",
+    "project_id": "notifications-1f0ac",
+    "storage_bucket": "notifications-1f0ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059826282501:android:1c07a21eb944d8de",
+        "android_client_info": {
+          "package_name": "com.example.chandanrkote.chandanpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059826282501-fbe1b1lc4v8cnsncdbl05urkhm2iibte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOAOiR3D3MCh38lcsGfstNvsnR_OWbMWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initToolbar(){
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Timetable App");
+        getSupportActionBar().setTitle("CSE-A Section");
     }
 
     private void setupListView(){
@@ -61,17 +61,22 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 1: {
-                        Intent intent = new Intent(MainActivity.this, Mainsub.class);
+                        Intent intent = new Intent(MainActivity.this, SubjectActivity.class);
                         startActivity(intent);
                         break;
                     }
                     case 2: {
+                        Intent intent = new Intent(MainActivity.this, FacultyActivity.class);
+                        startActivity(intent);
                         break;
+
                     }
                     case 3: {
                         break;
                     }
                     case 4: {
+                        Intent intent = new Intent(MainActivity.this, CalenderActivity.class);
+                        startActivity(intent);
                         break;
                     }
                 }
@@ -132,18 +137,18 @@ public class MainActivity extends AppCompatActivity {
 
 
             if(titleArray[position].equalsIgnoreCase("Timetable")){
-                imageView.setImageResource(R.drawable.b);
+                imageView.setImageResource(R.drawable.firsttheme);
             }else if(titleArray[position].equalsIgnoreCase("Subjects")){
-                imageView.setImageResource(R.drawable.a);
+                imageView.setImageResource(R.drawable.su);
             }else if(titleArray[position].equalsIgnoreCase("Faculty")){
                 imageView.setImageResource(R.drawable.faculty);
             }
             else if(titleArray[position].equalsIgnoreCase("Resources")){
-                imageView.setImageResource(R.drawable.c);
+                imageView.setImageResource(R.drawable.re);
             }
             else
             {
-                imageView.setImageResource(R.drawable.d);
+                imageView.setImageResource(R.drawable.ca);
             }
 
             return convertView;
