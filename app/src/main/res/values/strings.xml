@@ -85,7 +85,7 @@
     </string-array>
 
     <string-array name="time1">
-        <item>9:00AM-9:55Am </item>
+        <item>9:00AM-9:55AM </item>
         <item>9:55AM-10:50AM</item>
         <item>10:50AM-11:10AM</item>
         <item>11:10AM-12:05PM</item>
@@ -96,7 +96,7 @@
 
     <string-array name="time2">
 
-        <item>9:00AM-9:55Am </item>
+        <item>9:00AM-9:55AM </item>
         <item>9:55AM-10:50AM</item>
         <item>10:50AM-11:10AM</item>
         <item>11:10AM-12:05PM</item>
@@ -117,7 +117,7 @@
     </string-array>
 
     <string-array name="time4">
-        <item>9:00AM-9:55Am </item>
+        <item>9:00AM-9:55AM </item>
         <item>9:55AM-10:50AM</item>
         <item>10:50AM-11:10AM</item>
         <item>11:10AM-12:05PM</item>
@@ -127,7 +127,7 @@
     </string-array>
 
     <string-array name="time5">
-        <item>9:00AM-10:50Am </item>
+        <item>9:00AM-10:50AM </item>
         <item>10:50AM-11:10AM</item>
         <item>11:10AM-12:05PM</item>
         <item>12:05PM-1:00PM</item>
@@ -153,14 +153,11 @@
     </string-array>
 
 
-
-
     <string-array name="networks">
 
         <item>1.Adhoc wireless network :-Introduction,-Cellular and AdHoc Wireless Networks,Applications.Issues in Ad hoc
                 wireless networks- Medium access, routing, multi casting,transport layer, pricing, Quality of service, self organization,security, addressing, energy management,
                 scalability,deployment. Ad hoc wireless internet.</item>
-
 
 
         <item>2. MAC: MAC Protocols for Ad hoc wireless Networks:-Introduction, Issues in designing a MAC protocol for Ad hoc wireless Networks,
@@ -170,23 +167,21 @@
 
 
         <item>3.Routing- Routing protocols for Ad hoc wireless Networks:Introduction, Issues in designing a routing protocol for Ad hocwireless Networks,
-            Classification of routing protocols, Table driven routing protocols (DSDV,WRP,CGSR), On-demand routing protocols (DSR,AODV,TORA) Routing:-Hybrid routing protocol,
-            Routing protocols with effective flooding mechanisms, Hierarchical routing protocols, Power aware routing protocols</item>
+
+            (TCP-F,TCP-BUS,ATCPSPLIT TCP)</item>
 
 
         <item>4.Transport Layer: Transport layer protocols for Ad hoc wireless networks: Introduction, Issues in designing a transport layer protocol for Ad hoc wireless Networks,
-            Design goals of a transport layer protocol for Ad hoc wireless Networks Classification of transport layer solutions, TCP over Ad hoc wireless Networks
-            (TCP-F,TCP-BUS,ATCPSPLIT TCP)</item>
-
+        Design goals of a transport layer protocol for Ad hoc wireless Networks Classification of transport layer solutions, TCP over Ad hoc wireless Networks
+            Classification of routing protocols, Table driven routing protocols (DSDV,WRP,CGSR), On-demand routing protocols (DSR,AODV,TORA) Routing:-Hybrid routing protocol,
+            Routing protocols with effective flooding mechanisms, Hierarchical routing protocols, Power aware routing protocols</item>
 
 
         <item>5.QoS: Quality of service in Ad hoc wireless Networks:-Introduction, Issues and challenges in providing Qos in Ad hoc wireless Networks, Classification of QoS solutions, MAC
              layer solutions(cluster TDMA), network layer solutions (Ticketbased, TDR, QoS enabled AODV, OQR)</item>
 
 
-
         <item>Text Book:1. C. Siva Ram Murthy and B. S. Manoj, Ad hoc Wireless NetworksArchitectures and Protocols,\nISBN: 978-81-317-0688-6, 2014</item>
-
 
 
         <item>Reference Books1. Stefano Basagni, Marco Conti, Silvia Giordano, and Ivan Stojmenovic,Mobile ad hoc networking ,\nISBN: 978-0-471-65688-3,2010\n\n
@@ -247,34 +242,34 @@
 
     </string-array>
 
-   <string-array name="webtechnologies">
+    <string-array name="webtechnologies">
        <item>Fundamentals of Web, XHTML-1: Internet,WWW, Web Browsers and Web Servers, URLs, MIME, HTTP, Security The Web Programmers Toolbox.\nXHTML: Basic syntax
                 Standard structure, Basic text markup, Images, Hypertet Links.\nXHTML: Basic syntax, Standard strueture, Basic text
                 markup, Images, Hypertext Links</item>
 
-       <item>XHTML -2, CSS: Lists, Tables, Forms, Frames css:Introduction, Levels of style sheets, Style specification formats Selector forms, Property value forms,
+        <item>XHTML -2, CSS: Lists, Tables, Forms, Frames css:Introduction, Levels of style sheets, Style specification formats Selector forms, Property value forms,
       	            Font properties, List properties, Color, Alignment of text, The box model, Background images, The span and devtags, Conflict resolution</item>
 
-       <item>JavaScript: Overview of JavaScript, Object orientation and JavaScript, Syntactic characteristics, Primitives, operations and expressions, Screen output and keyboard input,
+        <item>JavaScript: Overview of JavaScript, Object orientation and JavaScript, Syntactic characteristics, Primitives, operations and expressions, Screen output and keyboard input,
 		          Control statments, Object crcation and modification, Arrays Functions, Constructors, Pattern matching using regular expressions, Errors in scripts, Examples.</item>
 
-       <item>JavaScript and DHTML Documents: JavaScript and HTML Documents, Dynamic Documents with JavaScript: The Java script execution environment, The Document Object Model
+        <item>JavaScript and DHTML Documents: JavaScript and HTML Documents, Dynamic Documents with JavaScript: The Java script execution environment, The Document Object Model
             Element access in JavaScript, Events and event handling,Handling events from the Body elements, Button elements,Text box and Password elements, The DOM 2 event model
             The navigator object, DOM tree traversal and modification.\n\nDynamic Documents with JavaScript: Introductiont to dynamic documents, Positioning elements,Moving clements Element visibility, Changing colors and fonts, Dynamic content,
             Stacking elements, Locating the mouse cursor, Reacting to a mouse click, Slow movement of elements, Dragging and dropping elements\n\n
             XML: Introduction, Syntax, Document structure, Document Type definitions, Namespaces, XML schemas, Displaying raw XML documents, Displaying XML documents with CSS, XSLT
             style sheets, XML processors, Web services.</item>
 
-       <item>PHP: Origins and uses of PHP, Overview of PHP, General syntactic characteristics, Primitives, operations and expressions, Output, Control statements, Arrays, Functions, Pattern matching
+        <item>PHP: Origins and uses of PHP, Overview of PHP, General syntactic characteristics, Primitives, operations and expressions, Output, Control statements, Arrays, Functions, Pattern matching
                      Form handling, Files, Cookies, Session tracking. Database Access: Relational databases, Architectures for database access, MySQL, Database access with PHP and MySQL</item>
 
-       <item>Text Book: 1. Robert W. Sebesta: Programming the World Wide Web, 4th edition,Pearson education, 2012\nPublisher: Pearson Education; Second edition (I January 2011)\n
+        <item>Text Book: 1. Robert W. Sebesta: Programming the World Wide Web, 4th edition,Pearson education, 2012\nPublisher: Pearson Education; Second edition (I January 2011)\n
                   ISBN-10: 8131759024,ISBN-13: 978-8131759028</item>
-       <item>Reference Books:-1. M. Deitel, P.J. Deitel, A. B. Goldberg: Internet and World Wide Web How to H program, 4th Edition, Pearson education, 2011\n
+        <item>Reference Books:-1. M. Deitel, P.J. Deitel, A. B. Goldberg: Internet and World Wide Web How to H program, 4th Edition, Pearson education, 2011\n
                 2. Chris Bates: Web Programming Building Internet Applications,3rd Edition, Wiley India, 2011\n
                 3. Joyce Farrell, Xue Bai, Michael Ekedahl: The Web Warrior Guide to Web Programming, First edition, Thomson, 2010.\nWeb Links: http://www.w3schools.com
        </item>
-   </string-array>
+    </string-array>
 
 
     <string-array name="unixshellprograming">
@@ -302,7 +297,7 @@
     </string-array>
 
     <string-array name="computergraphics">
-        <item>Introduction: Applications of computer grphics; A graphics system; Images: Physical and synthetic; Imaging Systems The synthetic camera model; The programmer's interface;
+        <item>Introduction: Applications of computer grphics; A graphics system; Images: Physical and synthetic; Imaging Systems The synthetic camera model; The programmers interface;
           Graphics architectures; Programmable Pipelines; Performance Characteristics Graphics Programming: The Sierpinski gasket Programming Two Dimensional Applications.</item>
 
         <item>The Open GL: The Open GL API; Primitives and attributes; Color; Viewing; Control functions; The Gasket program; Polygons and recursion; The three-dimensional gasket;
@@ -312,8 +307,8 @@
         <item>Geometric Objects and Transformations: Scalars, Points,and Vectors; 3-D Primitives; Coordinate Systems and Frames Modeling a Colored Cube; Affine Transformations; Rotation,
            Translation and Scaling; Geometric Objects and Transformations; Transformation in Homogeneous Coordinates; Concatenation of Transformations; Open GL  Transformation Matrices.</item>
 
-        <item>Implementation: Basic Implementation Strategies, Four major tasks; Clipping; Line-segment clipping; Polygon clipping Rasterization; Bresenham's algorithm;
-	       Hidden-surface removal.\n\n  Viewing: Classical and computer viewing; Viewing with a Computer; Positioning of the camera; Simple projections Projections in OpenGL;
+        <item>Implementation: Basic Implementation Strategies, Four major tasks; Clipping; Line-segment clipping; Polygon clipping Rasterization;Bresenhams algorithm;
+	       Hidden-surface removal.\n\n 4b.Viewing: Classical and computer viewing; Viewing with a Computer; Positioning of the camera; Simple projections Projections in OpenGL;
 	         Parallel-projection matrices Perspective-projection matrices;</item>
 
         <item>Lighting and Shading: Light and Matter; Light Sources; The Phong Lighting model; Polygonal Shading; Light sources in OpenGL; Specification of materials in OpenGL</item>
@@ -349,8 +344,6 @@
         <item>Not mentioned</item>
 
         <item>Not mentioned</item>
-
-
 
 
     </string-array>
@@ -440,8 +433,6 @@
     </string-array>
 
 
-
-
     <string-array name="fnames">
         <item>faculty Details\n</item>
 
@@ -450,6 +441,14 @@
 
 
 
+    <string name="resources">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Click the below link to get notes and  related stuff....</string>
+
+
+
+
+    <string name="linktodownload">
+        <a href="https://tinyurl.com/cse-a-section-notes">\nCLICK HERE TO DOWNLOAD</a>
+    </string>
 
 
 

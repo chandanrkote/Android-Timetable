@@ -38,7 +38,7 @@ public class SubjectDetails extends AppCompatActivity {
     }
     private void initToolbar(){
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Syllabus");
+        getSupportActionBar().setTitle("subjects");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
@@ -47,41 +47,25 @@ public class SubjectDetails extends AppCompatActivity {
     private void setupListView() {
         String subject_selected = SubjectActivity.subjectPreferences.getString(SubjectActivity.SUB_PRE, null);
         String[] syllabus = new String[]{};
-
-
         String[] title = getResources().getStringArray(R.array.titles);
 
 
-        if (subject_selected.equalsIgnoreCase("networks"))
-        {
-            syllabus = getResources().getStringArray(R.array.networks);
-        }
-        else if (subject_selected.equalsIgnoreCase("compiler design"))
-        {
+        if (subject_selected.equalsIgnoreCase("networks")) {
+            syllabus= getResources().getStringArray(R.array.networks);
+        } else if (subject_selected.equalsIgnoreCase("compiler_design")) {
             syllabus = getResources().getStringArray(R.array.compiler_design);
-        }
-        else if (subject_selected.equalsIgnoreCase("management and entrepreneurship"))
-        {
+        } else if (subject_selected.equalsIgnoreCase("management")) {
             syllabus = getResources().getStringArray(R.array.management);
-        }
-        else if (subject_selected.equalsIgnoreCase("web technologies"))
-        {
+        } else if (subject_selected.equalsIgnoreCase("webtechnologies")) {
             syllabus = getResources().getStringArray(R.array.webtechnologies);
-        }
-        else if (subject_selected.equalsIgnoreCase("unix shell programing"))
-        {
+        } else if (subject_selected.equalsIgnoreCase("unixshellprograming")) {
             syllabus = getResources().getStringArray(R.array.unixshellprograming);
-        }
-        else if (subject_selected.equalsIgnoreCase("computer graphics and visualization"))
-        {
-            syllabus = getResources().getStringArray(R.array.computergraphics);
-        }
-        else if (subject_selected.equalsIgnoreCase("graphics lab"))
-        {
+        } else if(subject_selected.equalsIgnoreCase("computergraphics")){
+            syllabus= getResources().getStringArray(R.array.computergraphics);
+        } else if (subject_selected.equalsIgnoreCase("cgvlab")) {
             syllabus = getResources().getStringArray(R.array.cgvlab);
-        }
-        else {
-            syllabus = getResources().getStringArray(R.array.compiler_design);
+        } else {
+            syllabus = getResources().getStringArray(R.array.wtlab);
         }
 
 
@@ -89,62 +73,62 @@ public class SubjectDetails extends AppCompatActivity {
         listView.setAdapter(subjectDetailsAdapter);
     }
 
-        public  class SubjectDetailsAdapter extends BaseAdapter {
+    public  class SubjectDetailsAdapter extends BaseAdapter {
 
-            private Context mContext;
-            private LayoutInflater layoutInflater;
-            private TextView title, syllabus;
-            private String[] titleArray;
-            private String[] syllabusArray;
-
-
-            public SubjectDetailsAdapter(Context context, String[] title, String[] syllabus){
-                mContext = context;
-                titleArray = title;
-                syllabusArray = syllabus;
-                layoutInflater = LayoutInflater.from(context);
-            }
+        private Context mContext;
+        private LayoutInflater layoutInflater;
+        private TextView title, subject;
+        private String[] titleArray;
+        private String[] subjectArray;
 
 
-            @Override
-            public int getCount() {
-                return titleArray.length;
-            }
-
-            @Override
-            public Object getItem(int position) {
-                return titleArray[position];
-            }
-
-            @Override
-            public long getItemId(int position) {
-                return position;
-            }
-
-            @Override
-            public View getView(int position, View convertView, ViewGroup parent) {
-                if(convertView == null){
-                    convertView = layoutInflater.inflate(R.layout.subject_detail_single_item, null);
-                }
-
-                title = (TextView)convertView.findViewById(R.id.tvSubjectTitle);
-                syllabus= (TextView)convertView.findViewById(R.id.tvSyllabus);
-
-
-                title.setText(titleArray[position]);
-                try{
-                    syllabus.setText(syllabusArray[position]);
-                }catch (Exception exception){
-
-                    Log.e("error", String.valueOf(syllabus));
-                }
-
-
-
-                return convertView;
-
-            }
+        public SubjectDetailsAdapter(Context context, String[] title, String[] subject){
+            mContext = context;
+            titleArray = title;
+            subjectArray = subject;
+            layoutInflater = LayoutInflater.from(context);
         }
+
+
+        @Override
+        public int getCount() {
+            return titleArray.length;
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return titleArray[position];
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            if(convertView == null){
+                convertView = layoutInflater.inflate(R.layout.subject_detail_single_item, null);
+            }
+
+            title = (TextView)convertView.findViewById(R.id.tvSubjectTitle);
+            subject= (TextView)convertView.findViewById(R.id.tvSyllabus);
+
+
+            title.setText(titleArray[position]);
+            try{
+                subject.setText(subjectArray[position]);
+            }catch (Exception exception){
+
+                Log.e("error", String.valueOf(subject));
+            }
+
+
+
+            return convertView;
+
+        }
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){

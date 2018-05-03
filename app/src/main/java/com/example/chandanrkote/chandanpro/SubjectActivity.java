@@ -69,46 +69,46 @@ public class SubjectActivity extends AppCompatActivity {
                                 break;
                     }
                     case 1:{
-                        subjectPreferences.edit().putString(SUB_PRE,"cd").apply();
-                        Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
-                        startActivity(intent);
-                        break;
+                               subjectPreferences.edit().putString(SUB_PRE,"compiler_design").apply();
+                                Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
+                                startActivity(intent);
+                                   break;
                     }
                     case 2:{
-                        subjectPreferences.edit().putString(SUB_PRE,"me").apply();
-                        Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
-                        startActivity(intent);
-                        break;
+                                   subjectPreferences.edit().putString(SUB_PRE,"management").apply();
+                                       Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
+                                  startActivity(intent);
+                                    break;
                     }
                     case 3:{
-                        subjectPreferences.edit().putString(SUB_PRE,"wt").apply();
-                        Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
-                        startActivity(intent);
-                        break;
+                                   subjectPreferences.edit().putString(SUB_PRE,"webtechnologies").apply();
+                                     Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
+                                    startActivity(intent);
+                                    break;
                     }
                     case 4:{
-                        subjectPreferences.edit().putString(SUB_PRE,"unix").apply();
-                        Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
-                        startActivity(intent);
-                        break;
+                               subjectPreferences.edit().putString(SUB_PRE,"unixshellprograming").apply();
+                                Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
+                              startActivity(intent);
+                              break;
                     }
                     case 5:{
-                        subjectPreferences.edit().putString(SUB_PRE,"cgv").apply();
-                        Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
-                        startActivity(intent);
-                        break;
+                                subjectPreferences.edit().putString(SUB_PRE,"computergraphics").apply();
+                                Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
+                              startActivity(intent);
+                                break;
                     }
                     case 6:{
-                        subjectPreferences.edit().putString(SUB_PRE,"cgvlab").apply();
-                        Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
-                        startActivity(intent);
-                        break;
+                               subjectPreferences.edit().putString(SUB_PRE,"cgvlab").apply();
+                              Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
+                             startActivity(intent);
+                             break;
                     }
                     case 7:{
-                        subjectPreferences.edit().putString(SUB_PRE,"wtlab").apply();
-                        Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
-                        startActivity(intent);
-                        break;
+                            subjectPreferences.edit().putString(SUB_PRE,"wtlab").apply();
+                            Intent intent=new Intent(SubjectActivity.this,SubjectDetails.class);
+                              startActivity(intent);
+                              break;
                     }
                     default:break;
 

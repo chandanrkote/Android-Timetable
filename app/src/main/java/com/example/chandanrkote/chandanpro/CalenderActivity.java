@@ -34,17 +34,14 @@ public class CalenderActivity extends AppCompatActivity {
         initToolbar();
 
         PhotoView photoView = (PhotoView) findViewById(R.id.photo_view);
-        photoView.setImageResource(R.drawable.d);
+        photoView.setImageResource(R.drawable.calenderofevents);
 
 
-        /*imageView = (ImageView) findViewById(R.id.ivcalender);
-        Drawable bitmap = getResources().getDrawable(R.drawable.d);
-        imageView.setImageDrawable(bitmap);
-        mAttacher = new PhotoViewAttacher(imageView);*/
     }
 
     private void setupUIViews(){
         toolbar = (Toolbar)findViewById(R.id.ivcalender);
+
 
     }
 
