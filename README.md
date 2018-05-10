@@ -1,5 +1,5 @@
 # Chandanpro
-1.This is a simple and userfriendly Timetable app.
+1.This is a simple and userfriendly Timetable app.\n
 2.This application designed for particular section in a department. Students and teachers will be the main beneficiaries of this app. 
 3.This app will contain default time table with the timings, if any changes occurs in the schedule will be informed through by sending notifications. 
 4.Teachers can upload any notes and other study materials through this app. 
